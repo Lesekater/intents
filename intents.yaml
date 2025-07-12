@@ -907,7 +907,7 @@ HassListAddItem:
 # -----------------------------------------------------------------------------
 
 HassListCompleteItem:
-  supported: false
+  supported: true
   domain: todo
   description: "Checks off an item from a todo list"
   slots:
@@ -1221,7 +1221,7 @@ HassSetVolume:
 # -----------------------------------------------------------------------------
 
 HassMediaSearchAndPlay:
-  supported: false
+  supported: true
   domain: media_player
   description: "Searched for a media item and plays it"
   slots:
